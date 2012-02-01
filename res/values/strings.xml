@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- .ui.* Strings -->
+	<string name="apply_now_button_text">Apply Now</string>
+	<string name="apply_later_button_text">Apply Later</string>
+	<string name="apply_update_button_text">Apply Update</string>
+	<string name="apply_title_textview_text">{0} is ready to be applied</string>
+	<string name="apply_subtitle_textview_text">Release notes:</string>
+	<string name="apply_unable_to_reboot_toast">Unable to reboot into recovery</string>
+	<string name="apply_trying_to_get_root_access">Trying to get root access to reboot in recovery mode</string>
+
+	<string name="available_updates_text">Please select the Kernel to download:</string>
+	<string name="choose_available_update_text">Download</string>
+	<string name="no_updates_found_instructions">No Kernels found.\nPress \'Check now\' to manually check for new updates</string>
+	<string name="no_extras_found_instructions">No Extras found.\nPress \'Check now\' to manually check for new updates</string>
+	<string name="downloaded_update_found_text">Updates found in Update Folder:</string>
+	<string name="checking_for_updates">Checking for updates</string>
+	<string name="downloading_update">Downloading update</string>
+	<string name="sdcard_is_not_present_dialog_body">You will need a writable SD card to download this update</string>
+	<string name="sdcard_is_not_present_dialog_title">No SDCard found</string>
+	<string name="sdcard_is_not_present_dialog_ok_button">Ok</string>
+	<string name="current_version_text">Running Version: {0}</string>
+	<string name="delete_updates_text">Delete updates</string>
+	<string name="delete_updates_success_message">Update Folder deleted</string>
+	<string name="delete_updates_failure_message">There was an error deleting the Update Folder</string>
+	<string name="delete_updates_noFolder_message">Update Folder not found</string>
+
+	<string name="apply_update_dialog_title">Confirmation</string>
+	<string name="apply_update_dialog_text">You are about to upgrade to {0}.\nIf you press update, the phone will restart itself in recovery mode to apply the update.</string>
+	<string name="apply_update_dialog_update_button">Update</string>
+	<string name="apply_update_dialog_backup_and_update_button">Backup &amp; Apply</string>
+	<string name="apply_update_dialog_cancel_button">Cancel</string>
+	
+	<string name="no_updates_no_mod_text">Your system is running an unsupported OS mod (Version {0}).</string>
+	<string name="check_now_button_text">Check now</string>
+	
+	<string name="menu_check_now">Check now</string>
+	<string name="menu_config">Configuration</string>
+	<string name="menu_about">About</string>
+	<string name="menu_changelog">Changelog</string>
+	<string name="menu_add_extra">Add Extra Server</string>
+	<string name="menu_update_featured">Update Featured Extra Servers</string>
+	<string name="menu_edit_extra">Edit Extra Server</string>
+	<string name="menu_delete_extra">Delete Extra Server</string>
+	<string name="menu_enable_extra">Enable Extra Server</string>
+	<string name="menu_disable_extra">Disable Extra Server</string>
+	<string name="menu_delete_all_extras">Delete all Extra Servers</string>
+	<string name="menu_delete_all_featured_extras">Delete all Featured Extra Servers</string>
+	<string name="menu_disable_all_extras">Disable all Extra Servers</string>
+	<string name="menu_disable_all_featured_extras">Disable all Featured Extra Servers</string>
+	<string name="menu_enable_all_extras">Enable all Extra Servers</string>
+	<string name="menu_enable_all_featured_extras">Enable all Featured Extra Servers</string>
+	
+	<string name="cancel_download_buton_text">Cancel Download</string>
+	<string name="confirm_download_cancelation_dialog_message">Are you sure you want to cancel the current download? You can resume it later, by downloading the same update again.</string>
+	<string name="confirm_download_cancelation_dialog_yes">Yes</string>
+	<string name="confirm_download_cancelation_dialog_no">No</string>
+	<string name="download_canceled_toast_message">Download cancelled</string>
+
+	<string name="verify_and_apply_dialog_title">Verifying</string>
+	<string name="verify_and_apply_dialog_message">Verifying update MD5 sum</string>
+
+	<string name="apply_existing_update_md5error_message">Error. MD5 checksum mismatch</string>
+
+	<string name="apply_upload_info_message">THIS VERSION OF THE UPDATER HAS THE REBOOT OPTION ENABLED, SO CLICKING ON APPLY NOW WILL ACTUALLY DO SO.
+PLEASE REBOOT INTO RECOVERY MANUALLY *BEFORE* APPLYING THIS UPDATE IF YOU WANT TO PERFORM A BACKUP</string>
+
+	<string name="last_update_check_text">Last update check</string>
+	<string name="overwrite_update_title">Update exists</string>
+	<string name="overwrite_update_summary">The selected Update already exists in your Update Folder.\nWould you like to overwrite it?</string>
+	<string name="overwrite_update_positive">Yes</string>
+	<string name="overwrite_update_negative">No</string>
+
+	<string name="no_md5_found_title">No MD5 found</string>
+	<string name="no_md5_found_summary">No MD5 File according to the Update was found.\nDo you want to apply it without checking?</string>
+	<string name="no_md5_found_positive">Apply</string>
+	<string name="no_md5_found_negative">Cancel</string>
+
+	<string name="notification_tickertext">Downloading Update</string>
+	<string name="notification_finished">Download finished</string>
+
+	<string name="toast_uninstall_old_Version">You have to uninstall any old Version of the App to proceed!</string>
+
+	<string name="stable_description"> = Stable</string>
+	<string name="experimental_description"> = Experimental</string>
+
+	<string name="changelog_progress_title">Please wait ...</string>
+	<string name="changelog_progress_body">Trying to download the changelog.xml</string>
+
+	<string name="changelog_button_text">Changelog\n of selected Kernel</string>
+	<string name="no_changelog_found">No Changelog found</string>
+
+	<string name="changelog_title_rom">Update Changelog</string>
+	<string name="changelog_title_app">Application Changelog</string>
+	<string name="changelog_title_extra">Extra Changelog</string>
+
+	<string name="featured_extras_progress_title">Please wait ...</string>
+	<string name="featured_extras_progress_body">Trying to download the Featured Extra Servers XML</string>
+	<string name="featured_extras_finished_toast">Featured Extra Servers updated</string>
+
+	<string name="true_string">true</string>
+	<string name="false_string">false</string>
+	
+	<string name="md5_check_cancelled">MD5 Check was Cancelled</string>
+	
+	<string name="button_available_updates">Kernels</string>
+	<string name="button_available_extras">Extras</string>
+	<string name="button_existing_updates">Existing</string>
+	
+	<string name="no_existing_updates_found">No Existing Updates found</string>
+
+	<string name="available_extras_text">Please select the Extra to download:</string>
+	<string name="choose_available_extra_text">Download</string>
+	<string name="changelog_button_extra_text">Changelog\n of selected Extra</string>
+
+	<string name="title_running">running</string>
+	
+	<string name="no_updatecheck_executed">No Updatecheck executed</string>
+	
+	<string name="no_extra_update_server_configured">No Extra Update Server configured.\nIf you want to use Extra Updates, go to Settings and configure a Update-Server</string>
+
+	<string name="delete_updates_root_folder_message">You can not delete the Root Folder\nPlease delete the Updates one by one</string>
+
+	<string name="about_dialog_title">About</string>
+	
+	<string name="barcode_scan_no_result">No result was received. Please try again.</string>
+	
+	<string name="extra_list_long_press">Long Press an Item to show options</string>
+	<string name="extra_list_no_extras">No Extra Servers. Press Menu to add one or update the List of Featured Extra Servers</string>
+	<string name="extra_list_delete_error">There was an Error deleting the Extra Server</string>
+	
+	<string name="extra_list_new_wrong_uri">Entered URL is invalid. Please Try again</string>
+	<string name="extra_list_new_wrong_name">Please enter a Name.</string>
+	
+	<string name="featured_extras_dialog_title">Featured Extras</string>
+	<string name="featured_extras_dialog_summary">Do you really want to update your List of Featured Extra Servers?\nYour custom servers will not be deleted</string>
+	<string name="featured_extras_dialog_pos">Yes</string>
+	<string name="featured_extras_dialog_neg">No</string>
+
+	<!-- .service.* Strings -->
+	<string name="no_updates_found">No updates found</string>
+	<string name="not_new_updates_found_ticker">New updates found!</string>
+	<string name="not_new_updates_found_title">New updates found</string>
+
+	<string name="exception_while_downloading">An error occurred while trying to download an update</string>
+
+	<string name="not_update_check_error_ticker">Check for updates failed</string>
+	<string name="not_update_check_error_title">Unable to check for new updates</string>
+
+	<string name="not_update_download_error_ticker">An error occurred while downloading the update</string>
+	<string name="not_update_download_error_title">An error occurred while downloading the update</string>
+
+	<string name="not_update_downloaded_ticker">Update downloaded</string>
+	<string name="not_update_downloaded_title">Ipdate downloaded</string>
+	<string name="not_update_downloaded_body">{0} is ready to install</string>
+
+	<string name="download_info_filename">Filename: </string>
+	<string name="download_info_mirror">Mirror: </string>
+	<string name="download_info_downloading">Downloading...</string>
+	<string name="download_info_speed">Speed: </string>
+	<string name="download_info_remaining_time">Remaining Time: </string>
+
+	<string name="confirm_delete_update_folder_dialog_message">Delete Update Folder?</string>
+	<string name="confirm_delete_update_folder_dialog_yes">Delete All Updates</string>
+	<string name="confirm_delete_update_folder_dialog_neutral">Delete selected Update</string>
+	<string name="confirm_delete_update_folder_dialog_no">Cancel</string>
+	<string name="delete_single_update_success_message">Update {0} deleted</string>    
+
+	<string name="minutes">min</string>
+	<string name="seconds">sec</string>
+	
+	<string name="unable_to_download_file">Unable to download the update file from any mirror</string>
+	<string name="md5_verification_failed">MD5 verification failed</string>
+
+	<!-- Preferences Strings -->
+	<string name="p_update_check_freq_title">Update Checking frequency</string>
+	<string name="p_update_check_freq_summary">Set update checking frequency</string>
+
+	<string name="p_display_older_rom_versions_title">Display All Kernel Updates</string>
+	<string name="p_display_older_rom_versions_summary">Display all Kernel updates, including old versions</string>
+	<string name="p_display_older_rom_versions_changed">Please check for updates again, to update the List of available updates</string>
+
+	<string name="p_allow_experimental_rom_versions_title">Display Experimental Builds</string>
+	<string name="p_allow_experimental_rom_versions_summary">Display Kernel updates that are Experimental (non-stable)</string>
+	<string name="p_allow_experimental_rom_versions_changed">Please check for updates again, to update the List of available updates</string>
+
+	<string name="p_display_older_extra_versions_title">Display All Extra Updates</string>
+	<string name="p_display_older_extra_versions_summary">Display all Extra updates, including old versions</string>
+	<string name="p_display_older_extra_versions_changed">Please check for updates again, to update the List of available updates</string>
+
+	<string name="p_allow_experimental_extra_versions_title">Display Experimental Extras</string>
+	<string name="p_allow_experimental_extra_versions_summary">Display Extra updates that are Experimental (non-stable)</string>
+	<string name="p_allow_experimental_extra_versions_changed">Please check for updates again, to update the List of available updates</string>
+
+	<string name="p_do_nandroid_backup_title">Nandroid Backup</string>
+	<string name="p_do_nandroid_backup_summary">Create Nandroid backup before applying update?</string>
+
+	<string name="p_notification_ringtone_title">Notification Ringtone</string>
+	<string name="p_notification_ringtone_summary">Choose a ringtone for Updater alerts</string>
+
+	<string name="p_update_file_url_title">Kernel Update Server</string>
+	<string name="p_update_file_url_summary">Change the Kernel Update Server</string>
+	<string name="p_update_file_url_changed">Kernel Update URL set back to default</string>
+
+	<string name="p_update_file_url_def_title">Reset Kernel Update Server</string>
+	<string name="p_update_file_url_def_summary">Reset the location of the Kernel Update Server back to default</string>
+
+	<string name="p_update_file_url_qr_title">Scan Barcode</string>
+	<string name="p_update_file_url_qr_summary">Scan QR Code for Kernel Update File URL</string>
+	<string name="p_update_file_changed_toast">Kernel Update File URL: </string>
+
+	<string name="p_vibrate_title">Vibrate</string>
+	<string name="p_vibrate_summary">Vibrate on Notifications</string>
+
+	<string name="p_notifications_title">Notifications</string>
+	<string name="p_notifications_summary">Enable/Disable Notifications</string>
+
+	<string name="p_progress_update_frequency_title">Progress Update Frequency</string>
+	<string name="p_progress_update_frequency_summary">Higher Values --> Less updating\nLower Values --> More updating</string>
+
+	<string name="p_progress_update_freq_def_title">Reset Update Frequency</string>
+	<string name="p_progress_update_freq_def_summary">Reset the Update Frequency of the Downloaddialog/Notificationbar</string>
+	<string name="p_progress_update_freq_def_toast">Progress Update Frequency set back to default</string>
+	
+	<string name="p_invalid_url">Entered URL is not valid! Please try again.</string>
+	
+	<string name="p_extra_file_title">neak.extra Path</string>
+	<string name="p_extra_file_summary">Change the Path of the neak.extra File</string>
+	
+	<string name="p_extra_file_def_title">Reset neak.extra File</string>
+	<string name="p_extra_file_def_summary">Set the Path of neak.extra back to default</string>
+	<string name="p_extra_file_def_toast">neak.extra set back to default</string>
+	
+	<string name="p_notifications_screen_title">Notifications</string>
+	<string name="p_notifications_screen_summary">Set Notification Settings</string>
+	
+	<string name="p_rom_screen_title">Kernel Update Settings</string>
+	<string name="p_rom_screen_summary">Set Settings for Kernel Updates</string>
+	
+	<string name="p_extra_screen_title">Extra Update Settings</string>
+	<string name="p_extra_screen_summary">Set Settings for Extra Updates</string>
+	
+	<string name="p_barcode_scan_failure">There was an error while scanning the Barcode</string>
+	
+	<string name="p_advanced_screen_title">Advanced Settings</string>
+	<string name="p_advanced_screen_summary">Set Advanced Settings</string>
+	
+	<string name="p_update_folder_title">Update Folder</string>
+	<string name="p_update_folder_summary">Set the update Folder\nSet blank for root-Directory</string>
+	
+	<string name="p_update_folder_def_title">Reset Update Folder</string>
+	<string name="p_update_folder_def_summary">Set the update Folder back to default</string>
+	<string name="p_update_folder_def_toast">Update Folder set back to default</string>
+	<string name="p_update_folder_error">Error on Setting the UpdateFolder</string>
+	
+	<string name="p_extra_list_title">Manage Extra Servers</string>
+	<string name="p_extra_list_summary">Add, Edit, Delete Extra Servers</string>
+	
+	<string name="p_extra_list_context_menu_header">Choose Action</string>
+	
+	<string name="p_extra_list_new_name">Extra Name:</string>
+	<string name="p_extra_list_new_uri">URL:</string>
+	<string name="p_extra_list_new_enabled">Enabled:</string>
+	<string name="p_extra_list_new_barcode">Scan barcode</string>
+	<string name="p_extra_list_new_save">Save</string>
+	<string name="p_extra_list_new_cancel">Cancel</string>
+	
+	<!--  new Strings -->
+	<string name="alert_old_version_title">Old Version</string>
+	<string name="alert_old_version_summary">You are running an old Kernel-Version.
+	To use the Updater, you have to upgrade manually.
+	Click the open Browser Button below, to open up the Instructions</string>
+	<string name="alert_old_version_ok">Ok</string>
+	<string name="alert_old_version_browser">Open Browser</string>
+	<string name="screenshot_button_extra_text">Screenshots</string>
+	<string name="extra_download_exception">There was an error downloading Extra: </string>
+	<string name="extra_submenu_delete">Delete</string>
+	<string name="extra_submenu_enable">Enable</string>
+	<string name="extra_submenu_disable">Disable</string>
+	<string name="download_resume_not_supported">Resume not supported by Server</string>
+	<string name="download_resume_download">Resuming Download</string>
+	<string name="download_not_enough_space">Not Enough Space on SDCard to download the Update</string>
+	<string name="config_extras_nosupport">This Updater was built without Screenshotsupport</string>
+	<string name="p_debug_output_title">Debug Output</string>
+	<string name="p_debug_output_summary">Show Debug Output in logcat</string>
+	<string name="p_debug_output_changed">Please restart the App for the changes to take effect</string>
+	<string name="sdcard_not_avail">No SDCard present or Phone Mounted to PC. You need a writeable SDCard to proceed. The App will now exit</string>
+</resources>

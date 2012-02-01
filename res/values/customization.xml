@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">NEAK OTA</string>
+	<!-- About Strings -->
+	<string name="about_comments">OTA Updater for N.E.A.K. Kernel - by Simone201</string>
+	<string name="about_credits">Based on original project by 89luca89 @ XDADev\n\nPorted to Samsung Galaxy s2 by 89luca89\n\nThanks milaq for the help!\nThanks to Sergi Vélez - garok89 - Ross McAusland - FireFart - Christian Mehlmauer - senab - Chris Banes - prash - matt_stang\nAnd big thanks to all the guys @ XDA for the sources and other stuff ;)\n\n</string>
+	<string name="about_copyright">Copyright © 2009,2011 Sergi Vélez, 89luca89, Simone201</string><!-- Add your name here, separated with comma's, if you helped out -->
+	<string name="about_website_label">N.E.A.K. on XDA</string>
+	<string name="about_website_url">http://forum.xda-developers.com/showthread.php?t=1411788</string>
+	<string name="about_email">http://forum.xda-developers.com/showthread.php?t=1411788</string>
+
+	<!-- Config Strings -->
+	<string name="conf_update_server_url_def">http://mirror.zantekk.de/neak/update_file.json</string>
+	<string name="conf_extra_version_file_def">/res/neak.extra</string>
+	<string name="conf_changelog_url">http://mirror.zantekk.de/neak/changelog.xml</string>
+	<string name="conf_featured_extras_url">http://mirror.zantekk.de/neak/FeaturedExtras.xml</string>
+	<!-- About dialog -->
+	<string-array name="about_authors">
+        	<item>Sergi Vélez http://code.google.com/p/jfupdater</item>
+        	<item>Darkrift http://android-dls.com</item>
+        	<item>Dan Poulsen</item>
+		<item>FireFart</item>
+		<item>senab</item>
+	</string-array>
+
+	<string-array name="about_translators">
+		<item>FireFart</item>
+		<item>DavidChill</item>
+		<item>Moksha</item>
+		<item>Gamempire</item>
+		<item>Wiebbe</item>
+		<item>Chahk</item>
+		<item>Offcina</item>
+		<item>ss1271</item>
+		<item>baggus</item>
+		<item>kog</item>
+		<item>ZilverZurfan</item>
+		<item>Jar0b_</item>
+		<item>zezol</item>
+	</string-array>
+
+	<string-array name="about_artists">
+		<item>prash</item>
+		<item>matt_stang</item>
+	</string-array>
+</resources>
